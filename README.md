@@ -36,7 +36,7 @@ General things I have learned in software development
     * Writing a short description of what the function/class does in general, not the internal procedure. 
     * Avoid commenting useless code. Get rid of the useless code!
     * Use docstrings to add description for a function
-     
+
 
 * Find and remove dead code
 * Avoid putting important information like passwords in the code. Use, for instance, environment variables. 
@@ -52,6 +52,7 @@ and break them into smaller but coherent pieces.
     * Integration testing for the connection between backend and frontend
 
 * Use a version control. GIT or SVN. 
+* Follow a workflow like GitHub flow or GitLab flow. For instance, create a production branch, a master branch and new branches for each feature or bug.  
 * Use a devops platform like GitLab for collaboration, code review, CI/CD, etc. 
 * Use CI/CD tools like GitLab or Jenkins 
 
