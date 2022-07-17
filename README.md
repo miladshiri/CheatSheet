@@ -45,6 +45,7 @@ General things I have learned in software development
 and break them into smaller but coherent pieces.
 * Use software architectures for the whole project, like MVC or MVT.
 * Utilize design patterns
+* Follow object oriented programming
 * Handle all the errors and all the possibilities
 * Use tests!
     * TDD: start the development with tests 
@@ -56,6 +57,29 @@ and break them into smaller but coherent pieces.
 * Use a devops platform like GitLab for collaboration, code review, CI/CD, etc. 
 * Use CI/CD tools like GitLab or Jenkins 
 
+## Object Oriented Programming (OOP) Rules
+* Encapsulation: A class consists of data and methods bundled together.
+* Abstraction: You don't need to know about the internal implementation details. Just use the class!.
+* Inheritance: You can create another class with the same methods and properties of a parent class.
+* Polymorphism: A method can accept different input shapes and does different things based on that.
+
+## Async vs. Parallelism vs. Thread vs. Concurrent vs. Process
+* Task and Multi-tasking: A CPU with one core can work only on one task at a time. Multitasking means doing 
+several tasks simultaneously at a time.
+* Thread vs. Process: Threads require less time for context switching as they are lighter than processes. 
+Process are totally independent and have their own resources like memory while threads share the same resources. A process can hold several threads. 
+* Thread and Multi-threading: A thread is the smallest set of tasks that can be executed independently from other threads. Multithreading means having different threads running at a time.
+* Process and Multi-processing: Multi-processing means having several processes running in different cores in parallel. In a single-core cpu, we can have several processes running concurrently. 
+* Parallelism vs. Concurrency: In parallelism, tasks are really executed simultaneously 
+while in concurrency, the system continuously switches between different tasks to make it seem that all the tasks are running at the same time, but they are not actually. In a single-core cpu, you can 
+only have concurrency and parallelism is possible with a multi-core cpu. Parallelism always decreases the overall execution time but concurrency can lead to a better performance when the code is also dependent on 
+I/O operations such as reading from or writing to hard disk, rather than only processing operations. 
+* Multithreading vs. Concurrency: Concurrency is a concept and multithreading is a way to achieve concurrency. 
+* Multi-processing vs. Parallelism: Multi-processing can take place in both parallel and concurrent environments. 
+* Parallel processing vs. Parallelism: Both can be happened only in a multi-core CPU. Parallelism is about doing several tasks in parallel in different cores while parallel processing can be about only one big processing task running on different cores at the same time. For instance, processing the frames of a video can be done separately in parallel in different cores. 
+* Synchronous vs. Asynchronous: In synchronous environment, all lines of the code is executed one by one in order, while Asynchronous environment, different pieces can be executed without order.   
+* AsyncIO vs. Threading: ??
+* GIL??
 
 
 ## AWS 
