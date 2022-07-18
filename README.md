@@ -78,7 +78,7 @@ I/O operations such as reading from or writing to hard disk, rather than only pr
 * Multi-processing vs. Parallelism: Multi-processing can take place in both parallel and concurrent environments. 
 * Parallel processing vs. Parallelism: Both can be happened only in a multi-core CPU. Parallelism is about doing several tasks in parallel in different cores while parallel processing can be about only one big processing task running on different cores at the same time. For instance, processing the frames of a video can be done separately in parallel in different cores. 
 * Synchronous vs. Asynchronous: In synchronous environment, all lines of the code is executed one by one in order, while Asynchronous environment, different pieces can be executed without order.   
-* AsyncIO vs. Threading: ??
+* AsyncIO vs. Threading: In AsyncIO, you can control when the program switches to another task with using await keyword, while in threading the system control the switching between the tasks. In case of dealing with I/O operations, to put the task into the back until the result is ready, AsyncIO is a better solution. When the code is a combination of processing and I/O operations, it is better to use threading. 
 * GIL??
 
 
