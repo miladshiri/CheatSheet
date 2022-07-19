@@ -64,6 +64,7 @@ and break them into smaller but coherent pieces.
 * Polymorphism: A method can accept different input shapes and does different things based on that.
 
 ## Async vs. Parallelism vs. Thread vs. Concurrent vs. Process
+You can find the examples and comparisons in Python here: https://github.com/miladshiri/CheatSheet/tree/main/concurrency_vs_others_python
 * Task and Multi-tasking: A CPU with one core can work only on one task at a time. Multitasking means doing 
 several tasks simultaneously at a time.
 * Thread vs. Process: Threads require less time for context switching as they are lighter than processes. 
