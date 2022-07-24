@@ -86,12 +86,19 @@ I/O operations such as reading from or writing to hard disk, rather than only pr
 * Global Interpreter Lock (GIL): GIL is a mechanism used in interpreter languages like Python to make sure that only one thread can execute at a time per process. Because if two threads try to access one variable at the same time, this causes deadlocks. The GIL is a single lock at the interpreter level that allows only one thread get access to the object/variable. 
 * Memory management: Python uses reference counting for memory management. Python keeps track of the number of references that point to the object/variable. As soon as the counter reaches zero, the memory occupied by the object/variable is released. 
 
+## ReactJS
+* It's declarative, not imperative. 
+
 ## Git 
 * Undo all the previous commits and get back to a certain commit
 ```
 git reset --hard <commit>
 git push --force
 ```
+
+## SSH
+* List of added keys: `ssh-add -l`
+* Add a new private key: `ssh-add ~/.ssh/privatekey`
 
 ## AWS 
 * Each region could include several connected availability zones (AZ), and each AZ could include several 
