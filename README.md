@@ -97,6 +97,7 @@ git push --force
 ```
 
 ## SSH
+* Start ssh-agent: ``` eval `ssh-agent -s` ```
 * List of added keys: `ssh-add -l`
 * Add a new private key: `ssh-add ~/.ssh/privatekey`
 
